@@ -373,7 +373,7 @@ button:active .tooltiptext {
 }
 
 .select-group select {
-    padding: 5px 10px;
+    padding: 3px 5px;
     border-radius: 5px;
     border: 1px solid #dcdfe6;
     background-color: #fff;
@@ -392,4 +392,19 @@ button:active .tooltiptext {
 .select-group select:focus {
     border-color: #409eff;
     box-shadow: 0 0 5px rgba(64, 158, 255, 0.5);
+}
+
+.button-container {
+    display: flex;
+    align-items: center; /* Aligns items vertically centered */
+    gap: 5px; /* Adds space between elements */
+}
+
+#copyAll {
+    display: none;
+    padding: 2px 5px;
+    background-color: #fff;
+    color: #606266;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
 }
