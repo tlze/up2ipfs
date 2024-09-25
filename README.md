@@ -8,11 +8,11 @@ Append api and(or) gw parameters when opening the url.
 Test URL: <a href="https://i0.img2ipfs.com/ipns/nmr.mzltd.win/up2ipfs/?api=api.nmr.mzltd.win">/ipns/nmr.mzltd.win/up2ipfs/</a>
 
 ## Instructions for Advanced Users.
-### Selfhost IPFS api and gw
+### Selfhost IPFS
 api = http://127.0.0.1:5001  (Default setting)  
 gw = http://127.0.0.1:8080  
 Full parameter Url:  
-hxxps://ipfs.io/ipfs/<cid>/?api=http://127.0.0.1:5001&gw=http://127.0.0.1:8080
+`http://127.0.0.1:8080/ipfs/<cid>/?api=http://127.0.0.1:5001&gw=http://127.0.0.1:8080`
 ### Some public api and(or) gateway(gw)
 ipfs.io  ( 'https://' can be omitted  )  
 cdn.ipfsscan.io  
